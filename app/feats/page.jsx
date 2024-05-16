@@ -94,7 +94,7 @@ const cards = [
 
 const FeatsPage = () => {
   return (
-    <div className="bg-gradient-ball from-neutral-500 via-neutral-400 to-neutral-100 min-h-screen w-full py-20">
+    <div className="bg-gradient-ball from-neutral-500 via-neutral-400 to-neutral-100 min-h-screen w-screen py-20">
       <LayoutGrid cards={cards} />
     </div>
   );
