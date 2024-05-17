@@ -94,8 +94,9 @@ const cards = [
 
 const FeatsPage = () => {
   return (
-    <div className="bg-gradient-ball from-neutral-500 via-neutral-400 to-neutral-100 min-h-screen w-screen py-20">
+    <div className="flex flex-col items-center justify-center bg-gradient-ball from-neutral-500 via-neutral-400 to-neutral-100 min-h-screen portrait:h-screen w-screen py-20">
       <LayoutGrid cards={cards} />
+      <p className="text-neutral-950">click on the image</p>
     </div>
   );
 };

@@ -54,6 +54,13 @@ const TimelinePage = () => {
                 index != timelines.length - 1 ? "w-1 h-16 bg-white" : ""
               }
             ></div>
+            <div
+              className={
+                index != timelines.length - 1
+                  ? "w-4 h-4 rounded-full bg-white"
+                  : ""
+              }
+            ></div>
           </div>
         ))}
       </div>
