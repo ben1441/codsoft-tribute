@@ -97,19 +97,19 @@ const cards = [
     id: 2,
     content: <AwardTwo />,
     className: "col-span-1",
-    thumbnail: honary,
+    thumbnail: knight,
   },
   {
     id: 3,
     content: <AwardThree />,
     className: "col-span-1",
-    thumbnail: knight,
+    thumbnail: ratna,
   },
   {
     id: 4,
     content: <AwardFour />,
     className: "md:col-span-2",
-    thumbnail: ratna,
+    thumbnail: honary,
   },
   {
     id: 5,
